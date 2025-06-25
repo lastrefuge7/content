@@ -17,7 +17,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTINF:-1 tvg-name="ТВ Центр HD"tvg-id="(no tvg-id)"tvg-logo="https://iptvx.one/picons/tvcentr.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",ТВ Центр HD
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Матч!"tvg-id="(no tvg-id)"tvg-logo="http://domnet.me/images/picons/tvico_n52.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",Матч!
-http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/NSK/CH_MATCHTV.m3u8
 #EXTINF:-1 tvg-name="Рен ТВ +4"tvg-id="(no tvg-id)"tvg-logo="http://epg.one/img2/18.png"group-title="Мои программы 📺🇷🇺":http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer",Рен ТВ +4
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
@@ -62,6 +63,22 @@ https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
 #EXTINF:-1 tvg-name="ТНТ4"tvg-id="(no tvg-id)"tvg-logo="https://iptvx.one/picons/tnt4.png"group-title="Мои программы 📺🇷🇺":http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer",ТНТ4
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+
+#EXTINF:-1 tvg-name="ОТС HD (Бердск)"tvg-id="(no tvg-id)"tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/1/1b/%D0%9E%D0%A2%D0%A1.png/revision/latest/scale-to-width-down/250?cb=20220410092458&path-prefix=ru"group-title="Мои программы 📺🇷🇺",ОТС HD (Бердск)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/NSK/CH_OTSHD_BERDSK.m3u8
+#EXTINF:-1 tvg-name="ОТС HD (Новосибирск)"tvg-id="(no tvg-id)"tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/1/1b/%D0%9E%D0%A2%D0%A1.png/revision/latest/scale-to-width-down/250?cb=20220410092458&path-prefix=ru"group-title="Мои программы 📺🇷🇺",ОТС HD (Новосибирск)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/NSK/CH_OTSHD.m3u8
+#EXTINF:-1 tvg-name="НСК 49 канал HD (Новосибирск)"tvg-id="(no tvg-id)"tvg-logo="https://nsk49.ru/wp-content/uploads/2022/04/logo_nsk49_vk.png"group-title="Мои программы 📺🇷🇺",НСК 49 канал HD (Новосибирск)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/NSK/CH_NSK49CHANNELHD.m3u8
+#EXTINF:-1 group-title="Мои программы 📺🇷🇺",8 канал (Новосибирск)
+#EXTINF:-1 tvg-name="8 канал (Новосибирск)"tvg-id="(no tvg-id)"tvg-logo="https://toplogos.ru/images/logo-8-kanal.jpg"group-title="Мои программы 📺🇷🇺",8 канал (Новосибирск)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/NSK/CH_8CHANNEL.m3u8
+
+
 #EXTINF:-1 tvg-name="Че! (+4)"tvg-id="(no tvg-id)"tvg-logo="https://i.ibb.co/d4S6vpx/che-s.jpg"group-title="Мои программы 📺🇷🇺":http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer",Че! (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
@@ -84,30 +101,77 @@ https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
 
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Мои программы 📺🇷🇺",Киносемья HD
+http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="nashe-novoe-kino" group-title="Мои программы 📺🇷🇺",Наше новое кино HD
+http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Мои программы 📺🇷🇺",Кинокомедия HD
+http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
+
+#EXTINF:-1 tvg-id="rodnoe-kino" group-title="Мои программы 📺🇷🇺",Родное кино
+http://77.235.1.19:8000/play/a04l/index.m3u8
+
+#EXTINF:-1 group-title="Мои программы 📺🇷🇺", Кино 1 International
+http://kino-1.catcast.tv/content/38617/index.m3u8
+
+
+
 #EXTINF:-1 tvg-name="В гостях у сказки"tvg-id="(no tvg-id)"tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/b/b3/%D0%92_%D0%B3%D0%BE%D1%81%D1%82%D1%8F%D1%85_%D1%83_%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8.png/revision/latest?cb=20210124093520&path-prefix=ru"group-title="Мои программы 📺🇷🇺":http-user-agent="",В гостях у сказки
 http://178.217.72.66:8080/Black/index.m3u8
+
 #EXTINF:-1 tvg-name="Liberty Сказки FHD"tvg-id="(no tvg-id)"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkA15nrRrYkeAuEetmjX0vEqeiLXsR7pJ4qw&s"group-title="Мои программы 📺🇷🇺":http-user-agent="",Liberty Сказки FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/19304/index.m3u8
+
 #EXTINF:-1 tvg-name="Liberty Союз 4K"tvg-id="(no tvg-id)"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZOafZdH4ghhJ0DYuyAD-hspY6XR7f1-EcMA&s"group-title="Мои программы 📺🇷🇺":http-user-agent="",Liberty Союз 4K
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/19307/index.m3u8
+
 #EXTINF:-1 tvg-name="Liberty Фан FHD"tvg-id="(no tvg-id)"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLG0SukeYK6DkAYY5ymH9XCbiD66U6tCrZ8w&s"group-title="Мои программы 📺🇷🇺":http-user-agent="",Liberty Фан FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/19403/index.m3u8
+
 #EXTINF:-1 tvg-name="Liberty Шоу FHD"tvg-id="(no tvg-id)"tvg-logo="http://epg.one/img2/6181.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",Liberty Шоу FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/17030/index.m3u8
+
 #EXTINF:-1 tvg-name="Мосфильм. Золотая коллекция HD"tvg-id="(no tvg-id)"tvg-logo="https://ramnet.ru/tv/logo/000006365.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",Мосфильм. Золотая коллекция HD
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Mosfilm_HD
 #EXTINF:-1 tvg-name="Dom Kino Premium"tvg-id="(no tvg-id)"tvg-logo="https://images.iptv.rt.ru/images/ch4dk33mhk079s3jpnbg.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",Dom Kino Premium
 http://178.217.72.66:8080/Dom_Kino_Premium_HD/index.m3u8
+
+
+
 #EXTINF:-1 tvg-name="MM USSR Комедия HD"tvg-id="(no tvg-id)"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9KQk500MlEQtFE33U4C0CIVGDPHHFZBvPqQ&s"group-title="Мои программы 📺🇷🇺":http-user-agent="",MM USSR Комедия HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/13019/index.m3u8
 #EXTINF:-1 tvg-name="MM USSR Мультфильм HD"tvg-id="(no tvg-id)"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQUeoNGNLvnVh0TF6lZDE2lXB-aIWBtkKUKw&s"group-title="Мои программы 📺🇷🇺":http-user-agent="",MM USSR Мультфильм HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/13020/index.m3u8
+
+
+
+
 #EXTINF:-1 tvg-name="MM USSR Приключения HD"tvg-id="(no tvg-id)"tvg-logo="https://dbtv.ru/upload/icons/minimax-ussr-prikluchenija.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",MM USSR Приключения HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/13060/index.m3u8
 #EXTINF:-1 tvg-name="MM USSR Сказки HD"tvg-id="(no tvg-id)"tvg-logo="https://dbtv.ru/upload/icons/minimax-ussr-skazki.png"group-title="Мои программы 📺🇷🇺":http-user-agent="",MM USSR Сказки HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/13021/index.m3u8
 #EXTINF:-1 tvg-name="MM USSR Фантастика HD"tvg-id="(no tvg-id)"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPKCNiSHsN3K0qMg_Ahya3_p_AuSzAv5Ky1w&s"group-title="Мои программы 📺🇷🇺":http-user-agent="",MM USSR Фантастика HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://rhsbjv7k.tvclub.xyz/iptv/CTHKNGFSE8DXT3/13022/index.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="usadba" group-title="Мои программы 📺🇷🇺", Усадьба
+http://api.peers.tv/timeshift/usadba/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-name=".red"tvg-id="(no tvg-id)"tvg-logo=""group-title="КИНО":http-user-agent="",.red
 http://178.124.152.238:8088/sony
