@@ -84,8 +84,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="usadba" group-title="Мои программы 📺🇷🇺", Усадьба
-http://api.peers.tv/timeshift/usadba/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
-
+http://api.peers.tv/timeshift/usadba/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 
 #EXTINF:-1 tvg-name="Муз ТВ (+4)"tvg-id="(no tvg-id)"tvg-logo="http://only4.tv/ch/1313.png"group-title="Мои программы 📺🇷🇺":http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer",Муз ТВ (+4)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
@@ -132,17 +131,16 @@ http://dmi3y-tv.ru/hls/zabava/region/NSK/CH_8CHANNEL.m3u8
 
 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Мои программы 📺🇷🇺",Киносемья HD
-http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="nashe-novoe-kino" group-title="Мои программы 📺🇷🇺",Наше новое кино HD
-http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
-
+http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Мои программы 📺🇷🇺",Кинокомедия HD
-http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
+http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Мои программы 📺🇷🇺", Киносвидание HD
-http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
-
+http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 
 
 
@@ -220,13 +218,11 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 http://178.217.72.66:8080/Dom_Kino_Premium_HD/index.m3u8
 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="glazami-turista" group-title="Мои программы 📺🇷🇺", Глазами туриста
-http://api.peers.tv/timeshift/glazami_turista_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
-
+http://api.peers.tv/timeshift/glazami_turista_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 
 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="viasat-nature" group-title="Мои программы 📺🇷🇺", Viju Nature HD
-http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTA5MjU3ODAsImlhdCI6MTc1MDgzOTM4MCwiY2lkIjo2LCJ1aWQiOjkyNjAyMzM4NywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.r5z5UZn5s9e5TIQkY1GlRos9K103GUzOTv_bnAtpONU&offset=3
-
+http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTEwMTIxODAsImlhdCI6MTc1MDkyNTc4MCwiY2lkIjo2LCJ1aWQiOjkyNjIzMjk3MywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.y53UYI-h0shqqWBcGVuDYyzpQ94f_6WoFkdDUvHWYTA&offset=3
 
 #EXTINF:-1 group-title="Мои программы 📺🇷🇺",viju+ Planet HD
 http://77.235.1.19:8000/play/a05m/index.m3u8
